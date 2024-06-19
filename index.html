@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Style.css" />
+    <script
+      src="https://kit.fontawesome.com/ded38f8a56.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="contaner">
+        <nav>
+          <p>DHEERAJ</p>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>UI/UX Designer</p>
+          <h1>
+            Hi I'am <span>Dheerendra</span><br />
+            from India
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!----------------------about--------------------->
+    <div id="about">
+      <div class="contaner">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="image/image-2.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
+              incidunt dolore ex error voluptatibus sunt iste quae. Soluta non
+              maxime culpa fugit assumenda, quos nesciunt veniam quam cupiditate
+              reiciendis blanditiis?
+            </p>
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Web Designing</span><br />
+                  Migration Duda Builder
+                </li>
+                <li><span>UI/UX</span><br />New build Designing Wix</li>
+                <li><span>Web Designing</span><br />Wordpress</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>12 Sep 2022 - 28 March 2024</span><br />Web Designer
+                  Adaan Digital Solution Pvt. Lmt.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>8 Aug 2022 - 01 jan 2023</span><br />Web Designing +
+                  UI/UX from Ducat , Delhi
+                </li>
+                <li>
+                  <span>2017 - 2020</span><br />Graduation from D.D.U.
+                  University
+                </li>
+                <li>
+                  <span>2015 - 2017</span><br />
+                  Intermediate from U.P.Board
+                </li>
+                <li>
+                  <span>2013 - 2015</span><br />High School from U.P. Board
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------------------------------Services-------------------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Duda Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              commodi quas iusto tenetur hic harum error ab doloribus fuga
+              consequatur deleniti repudiandae, eius accusamus unde mollitia
+              recusandae deserunt facilis culpa.
+            </p>
+
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-wix"></i>
+            <h2>Wix Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              commodi quas iusto tenetur hic harum error ab doloribus fuga
+              consequatur deleniti repudiandae, eius accusamus unde mollitia
+              recusandae deserunt facilis culpa.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-wordpress"></i>
+            <h2>Wordpress Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              commodi quas iusto tenetur hic harum error ab doloribus fuga
+              consequatur deleniti repudiandae, eius accusamus unde mollitia
+              recusandae deserunt facilis culpa.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------portfolio----------------------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="image/image-3.jpg" alt="" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Dolorum, reprehenderit.
+              </p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="image/image-4.jpg" alt="" />
+            <div class="layer">
+              <h3>E-Commerce Website</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Dolorum, reprehenderit.
+              </p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="image/image-5.jpg" alt="" />
+            <div class="layer">
+              <h3>Digital Marketing</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Dolorum, reprehenderit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn"> See more</a>
+      </div>
+    </div>
+
+    <!-------------------------Contact---------------------->
+    <div id="contact">
+      <div class="contaner">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i> dheerendraku7524@gmail.com
+            </p>
+            <p ><i class="fa-solid fa-square-phone" ></i> +917011279544</p>
+            <p><i class="fa-solid fa-square-phone"></i> +917524929089</p>
+            <div class="social-icon">
+              <a href="http://facebook.com/"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="http://twitter.com/"
+                ><i class="fa-brands fa-square-x-twitter"></i
+              ></a>
+              <a href="http://instagram.com/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="http://linkedin.com/dheerendra-kushwaha-3b0464246
+              "
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a
+              href="image/DHEERENDRA's Resume (1).pdf"
+              download
+              class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <input
+                type="phone"
+                name="Phone"
+                placeholder="Your Number"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="06"
+                placeholder="Your Massage"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright @ Dheerendra.Mand wtih by Creative Designer</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbw_3mSOspEdSv4tr6JtSgrxdvLbJyMFOhOAl09MNUTgyXu541O81qXwUyH1Rugwpo-O/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
